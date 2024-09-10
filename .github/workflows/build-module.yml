@@ -17,6 +17,11 @@ jobs:
             target: mediatek
             subtarget: filogic
             vermagic: "83850846aeb31a278a010941bbebf326"
+          - tag: "21.02.7"
+            pkgarch: mipsel_24kc
+            target: ramips
+            subtarget: mt7621
+            vermagic: "9075b32d59737ae13839f94851acafe7"
 
     steps:
       - uses: actions/checkout@v4
